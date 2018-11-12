@@ -12,11 +12,11 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: $primary;
+  border-color: $secondary;
 }
 
 hr.light {
-  border-color: $white;
+  border-color: $secondary;
 }
 
 a {
