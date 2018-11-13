@@ -100,7 +100,6 @@ img::-moz-selection {
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/bg_test2.png');
   background-position: center top;
-  background-size:100%;
   margin-top: -104px;
   background-repeat: no-repeat;
 
@@ -111,9 +110,7 @@ img::-moz-selection {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/design3.png');
-  
   margin-top: -25px;
-  background-size: 100% 100%;
   background-color: $white;
   background-repeat: no-repeat;
 }
