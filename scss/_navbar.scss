@@ -11,7 +11,7 @@
     @include sans-serif-font;
     &:focus,
     &:hover {
-      color: darken($white, .1);
+      color: darken($gray-900, .1);
     }
   }
   .navbar-nav {
@@ -23,7 +23,7 @@
         text-transform: uppercase;
         color: $gray-900;
         &:hover {
-          color: $white;
+          color: $grey-900;
         }
         &.active {
           color: $primary !important;
