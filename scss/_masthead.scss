@@ -2,10 +2,10 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/bg_test3.png');
-  background-position: center center;
+  background-image: url('../img/bg_test1.png');
+  background-position: center bottom;
   margin-top: -25px;
-  background-color: $gray-900;
+  background-color: $white;
   @include background-cover;
   hr {
     margin-top: 30px;

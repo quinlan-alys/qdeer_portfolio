@@ -11,16 +11,13 @@
   background-size: cover;
 }
 @mixin serif-font() {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Josephin Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 @mixin sans-serif-font() {
   font-family: 'Josephin Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 section {
-  background-color: $gray-900;
+  background-color: $white;
 }
 
-p, h3, h2, i {
-  color: $white;
-}
