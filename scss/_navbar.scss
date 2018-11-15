@@ -13,6 +13,9 @@
     &:hover {
       color: darken($gray-900, .1);
     }
+    img {
+      height: 40px;
+    }
   }
   .navbar-nav {
     > li.nav-item {
@@ -43,6 +46,9 @@
       &:focus,
       &:hover {
         color: $black;
+      }
+      img {
+        height:60px;
       }
     }
     .navbar-nav > li.nav-item > a.nav-link {

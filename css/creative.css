@@ -126,6 +126,10 @@ img::-moz-selection {
   background-repeat: no-repeat;
 }
 
+.typed {
+  height: 50px;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -143,6 +147,10 @@ img::-moz-selection {
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #212529;
+}
+
+#mainNav .navbar-brand img {
+  height: 40px;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -179,6 +187,9 @@ img::-moz-selection {
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #000;
+  }
+  #mainNav .navbar-brand img {
+    height: 60px;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
